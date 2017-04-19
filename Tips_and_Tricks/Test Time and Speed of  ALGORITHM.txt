@@ -1,0 +1,7 @@
+ 
+{
+        long startTime = System.currentTimeMillis();  
+         // place here algorithm
+        System.out.println("Time taken by this algorithm "+(System.currentTimeMillis()-startTime)+"ms");
+
+}

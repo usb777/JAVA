@@ -1,0 +1,8 @@
+(int)(Math.random() * ((max - min) + 1)) + min;
+
+
+
+============================Next Generation======================
+	Random rnd = new Random();
+for (i=0;i<100;i++)
+System.out.println("Random = "+rnd.nextInt(6)); // generate number from 0 to 5
