@@ -11,13 +11,14 @@ public class SelectionSortExample {
                 if (arr[j] < arr[index])
                 {  
                     index = j;//searching for lowest index  
-                }  
-            }  
+                } //if 
+            }  //for j
             int smallerNumber = arr[index];   
             arr[index] = arr[i];  
             arr[i] = smallerNumber;  
-        }  
-    }  
+        } //for i  
+        
+    }  //end of selectionSort
        
     public static void main(String a[])
     {  
