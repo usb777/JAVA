@@ -1,4 +1,9 @@
-(int)(Math.random() * ((max - min) + 1)) + min;
+
+=========================First method============================
+/**
+Generate random number with range from Min to Max
+*/
+(int)(Math.random() * ((max - min) + 1)) + min;  
 
 
 
